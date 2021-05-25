@@ -1,0 +1,96 @@
+
+Windows-IP-Konfiguration
+
+   Hostname  . . . . . . . . . . . . : DESKTOP-E7REM71
+   Prim채res DNS-Suffix . . . . . . . : 
+   Knotentyp . . . . . . . . . . . . : Hybrid
+   IP-Routing aktiviert  . . . . . . : Nein
+   WINS-Proxy aktiviert  . . . . . . : Nein
+   DNS-Suffixsuchliste . . . . . . . : home
+
+Ethernet-Adapter Ethernet:
+
+   Verbindungsspezifisches DNS-Suffix: home
+   Beschreibung. . . . . . . . . . . : Intel(R) PRO/1000 MT Desktop Adapter
+   Physische Adresse . . . . . . . . : 08-00-27-ED-FE-27
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+   Verbindungslokale IPv6-Adresse  . : fe80::c9dd:c5a4:1862:4a18%8(Bevorzugt) 
+   IPv4-Adresse  . . . . . . . . . . : 10.0.2.15(Bevorzugt) 
+   Subnetzmaske  . . . . . . . . . . : 255.255.255.0
+   Lease erhalten. . . . . . . . . . : Donnerstag, 15. April 2021 10:18:39
+   Lease l채uft ab. . . . . . . . . . : Samstag, 17. April 2021 14:27:38
+   Standardgateway . . . . . . . . . : 10.0.2.2
+   DHCP-Server . . . . . . . . . . . : 10.0.2.2
+   DHCPv6-IAID . . . . . . . . . . . : 101187623
+   DHCPv6-Client-DUID. . . . . . . . : 00-01-00-01-28-07-9D-9D-08-00-27-ED-FE-27
+   DNS-Server  . . . . . . . . . . . : 192.168.1.1
+   NetBIOS 체ber TCP/IP . . . . . . . : Aktiviert
+
+Ping wird ausgef체hrt f체r lerneprogrammieren.de [85.13.133.184] mit 32 Bytes Daten:
+Antwort von 85.13.133.184: Bytes=32 Zeit=28ms TTL=127
+Antwort von 85.13.133.184: Bytes=32 Zeit=40ms TTL=127
+Antwort von 85.13.133.184: Bytes=32 Zeit=37ms TTL=127
+Antwort von 85.13.133.184: Bytes=32 Zeit=34ms TTL=127
+
+Ping-Statistik f체r 85.13.133.184:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 28ms, Maximum = 40ms, Mittelwert = 34ms
+
+Routenverfolgung zu lerneprogrammieren.de [85.13.133.184]
+체ber maximal 30 Hops:
+
+  1    <1 ms    <1 ms    <1 ms  10.0.2.2 
+  2     3 ms     3 ms     3 ms  internetbox.home [192.168.1.1] 
+  3     7 ms     9 ms     7 ms  100.88.80.1 
+  4     9 ms     9 ms    10 ms  ae22-1150.ipc-zhb790-m-pe-48.bluewin.ch [213.3.220.125] 
+  5     8 ms     9 ms    14 ms  etht22-1150.zhbic20p-cgn001.bluewin.ch [213.3.220.126] 
+  6    14 ms    10 ms     9 ms  ae22-1140.ipc-zhb790-m-pe-48.bluewin.ch [213.3.220.41] 
+  7    13 ms    12 ms    10 ms  i79zhb-005-bun10.bb.ip-plus.net [193.134.95.70] 
+  8     *        *        *     Zeit체berschreitung der Anforderung.
+  9     *        *        *     Zeit체berschreitung der Anforderung.
+ 10   130 ms   124 ms   157 ms  ae-2-3603.edge4.Berlin1.Level3.net [4.69.159.13] 
+ 11    57 ms   151 ms    28 ms  NEUE-MEDIEN.edge4.Berlin1.Level3.net [212.162.11.134] 
+ 12    34 ms    33 ms    31 ms  dd32834.kasserver.com [85.13.133.184] 
+
+Ablaufverfolgung beendet.
+
+Windows-IP-Konfiguration
+
+   Hostname  . . . . . . . . . . . . : DESKTOP-GKLVP59
+   Prim꼛es DNS-Suffix . . . . . . . : 
+   Knotentyp . . . . . . . . . . . . : Hybrid
+   IP-Routing aktiviert  . . . . . . : Nein
+   WINS-Proxy aktiviert  . . . . . . : Nein
+   DNS-Suffixsuchliste . . . . . . . : home
+
+Ethernet-Adapter Ethernet:
+
+   Verbindungsspezifisches DNS-Suffix: home
+   Beschreibung. . . . . . . . . . . : Intel(R) PRO/1000 MT Desktop Adapter
+   Physische Adresse . . . . . . . . : 08-00-27-24-E6-1C
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+   Verbindungslokale IPv6-Adresse  . : fe80::e06c:62fb:f3dd:5dc3%9(Bevorzugt) 
+   IPv4-Adresse  . . . . . . . . . . : 10.0.2.15(Bevorzugt) 
+   Subnetzmaske  . . . . . . . . . . : 255.255.255.0
+   Lease erhalten. . . . . . . . . . : Donnerstag, 20. Mai 2021 13:34:21
+   Lease l꼞ft ab. . . . . . . . . . : Freitag, 21. Mai 2021 13:34:20
+   Standardgateway . . . . . . . . . : 10.0.2.2
+   DHCP-Server . . . . . . . . . . . : 10.0.2.2
+   DHCPv6-IAID . . . . . . . . . . . : 101187623
+   DHCPv6-Client-DUID. . . . . . . . : 00-01-00-01-28-34-15-4B-08-00-27-24-E6-1C
+   DNS-Server  . . . . . . . . . . . : 192.168.1.1
+   NetBIOS 갶er TCP/IP . . . . . . . : Aktiviert
+
+Ping wird ausgef갿rt f걊 lerneprogrammieren.de [85.13.133.184] mit 32 Bytes Daten:
+Antwort von 85.13.133.184: Bytes=32 Zeit=37ms TTL=127
+Antwort von 85.13.133.184: Bytes=32 Zeit=263ms TTL=127
+
+Ping-Statistik f걊 85.13.133.184:
+    Pakete: Gesendet = 2, Empfangen = 2, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 37ms, Maximum = 263ms, Mittelwert = 150ms

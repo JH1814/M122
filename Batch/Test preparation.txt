@@ -1,0 +1,76 @@
+% = Variable muss vor und hinter dem Variabelnnamen stehen (es gibt schon vorgegebene Variabeln)
+@ = Schaltet  Ausgabe der Befehlszeile auf dem Bildschirm nur für den aktuellen Befehl aus  ist  kein eigener Befehl.
+. = echo. (Leere zeile)
+echo = Ausgabe (print bei Python) Gibt einen Text aus oder schaltet die Befehlszeilen an/aus
+CHOICE = Verhindert das Fortfahren des Programms während eine Entscheidung getroffen wird
+Kommentar = REM (remark)  oder ::
+Errorlevel = Kennzeichnet Erfolg oder Misserfolg 
+Call = Ruft Datei auf 
+goto = Sprungmarke wird angesprungen welche zufor definiert wurde      Syntax: goto SPRUNGMARKENNAME
+for = Ermöglicht die Schleifenbearbeitung.
+if =  Prüfung auf eine Gleichheit als auch auf das Vorhandensein von Dateien.
+else = falls das nicht der fall ist (braucht ein if) (else (echo...)
+pushd = pushd wechselt zum angegebenen Pfad und speichert den aktuellen Pfad bis zum Aufruf von popd.
+popd = popd wechselt zum gespeicherten Pfad
+
+/p = eingabe (set /p wie heisst du? )
+/a = rechnung (set /a resultat= %variable%*%variable%) (falls buchstaben, dann = 0)
+/t = warten in sek (-1 = unendlich)
+/i = gross-/kleinschreibung sind egal
+/r = zieht alle unterverzeichnisse in den Befehl ein
+/L = kann anzahl wie of etwas ausgeführt werden soll bestimmen (for /L *variable* in (*erste zahl*, *zahlenschritt*, *letzte zahl* do zb. echo)
+%% *etwas* = modulo (rest bei einer division durch die zahl x)
+not =  Der Befehl wird nur ausgeführt, wenn die Bedingung NICHT Wahr ist
+== = gleich
+EQU = falls gleich / ist gleich
+NEQ = nicht gleich
+LSS = kleiner
+GTR = grösser als
+GEQ = grösser oder gleich
+dc = change directory (wechselt ort, and dem gerade gearbeitet wird)
+ren = rename (umbenennen)
+> = überschreibt (erstellt datei falls nicht vorhanden sonst überschreibt sie die Datei)
+>> = Ausgabe wird in die Datei gespeichert 
+mkdir = make direktory (macht ein verzeichnis (ordner)
+copy = kopiere datei 
+cls = clear screen (löscht die obenstehenden ein und ausgaben)
+str = string (schrift)
+int = integer (zahl)
+start = startet programm oder internetseite
+pushd = neuer Pfad ein"pushen"
+popd = ein pfad zurück
+title = titel
+@ = verstecken
+pause = warten auf tasten Druck
+goto = gehe zu (meist goto :eof)
+%...% = Varibale
+%0 = zeigt dateipfad
+%1, %2... = erste zeile (wenn erste zeile @echo off ist, sagt es "echo ist off")
+set = setzen einer Variable
+*variable*= kein Leerzeichen
+eof = end of file
+color *hintergrund* *schrift* = farbe
+
+0 = schwarz
+1 = Dunkelblau
+2 = dunkelgrün
+3 = blaugrün
+4 = dunkelrot
+5 = lila
+6 = ocker (orange-braun)
+7 = hellgrau
+8 = dunkelgrau
+9 = blau
+a = grün
+b = zyan (helles blau)
+c = rot
+d = magenta (wie violett)
+e = gelb
+f = weiss
+
+xcopy = erweitertes Kopieren von Dateien, Verzeichissen und Unterverzeichnissen 
+/D bedeutet nur neuere Dateien 
+/E Unterverzeichnisse mitnehmen 
+/Y Dateien ohne Nachfragen überschreiben 
+/I neuen Ordner anlegen, falls nicht vorhanden 
+
