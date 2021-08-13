@@ -44,3 +44,10 @@ if result != -1:
     print(target, "is present at index", result+1)
 else:
     print(target, "is not present in array")
+
+
+
+
+
+
+    
